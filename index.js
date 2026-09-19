@@ -35,3 +35,15 @@ const flattenArray = (arr) =>{
     return arr.flat(1);
 }
 console.log('Problem - 14 :',flattenArray([1, [2, 3], [4, 5]]));
+
+// Problem 15 
+
+const chunkArray = (arr , size) =>{
+    const chunked = [];
+    for (let i = 0; i < arr.length; i += size) {
+        chunked.push(arr.slice(i, i + size));
+    }
+    return chunked ;
+}
+
+console.log('Problem - 15 :',chunkArray([1, 2, 3, 4], 2));
