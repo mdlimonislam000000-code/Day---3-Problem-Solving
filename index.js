@@ -28,3 +28,10 @@ const removeDuplicates = (arr) =>{
     return [...new Set(arr)];
 }
 console.log('Problem - 13 :',removeDuplicates([1, 2, 2, 3, 3, 4]));
+
+// Problem 14 
+
+const flattenArray = (arr) =>{
+    return arr.flat(1);
+}
+console.log('Problem - 14 :',flattenArray([1, [2, 3], [4, 5]]));
