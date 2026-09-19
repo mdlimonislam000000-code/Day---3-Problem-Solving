@@ -21,3 +21,10 @@ const findMax = (arr) =>{
     return max 
 }
 console.log('Problem - 12 :',findMax([3, 1, 7, 2, 9]));
+
+// Problem 13 
+
+const removeDuplicates = (arr) =>{
+    return [...new Set(arr)];
+}
+console.log('Problem - 13 :',removeDuplicates([1, 2, 2, 3, 3, 4]));
